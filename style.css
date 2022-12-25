@@ -1,0 +1,59 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.navbar.scrolling-active {
+  background-color: white;
+  padding: 10px 0 10px 0;
+}
+
+.hero {
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero h4 {
+  --animate-delay: 0.7s;
+}
+
+.hero h3 {
+  --animate-delay: 1.2s;
+}
+
+.hero button {
+  --animate-delay: 1.7s;
+}
+
+.area {
+  padding: 100px 0 100px 0;
+}
+
+.facility {
+  padding: 100px 0 100px 0;
+}
+.facility h5 {
+  line-height: 1.8;
+  align-items: center;
+  display: flex;
+  column-gap: 10px;
+}
+
+.facility .accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+footer {
+  background-color: black;
+}
