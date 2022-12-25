@@ -2,9 +2,6 @@
   font-family: "Oswald", sans-serif;
 }
 
-html {
-  overflow-x: hidden !important;
-}
 .navbar {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -48,7 +45,6 @@ html {
 .facility h5 {
   line-height: 1.8;
   align-items: center;
-  display: flex;
   column-gap: 10px;
 }
 
@@ -58,9 +54,13 @@ html {
 .destination {
   padding: 100px 0 100px 0;
 }
-.destination .card-body {
-  height: 50%;
-  width: 50%;
+.destination img {
+  height: 80%;
+  width: 100%;
+}
+
+.destination h2 {
+  padding-top: 10px;
 }
 
 footer {
