@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
 }
 
@@ -37,6 +37,13 @@
 
 .area {
   padding: 100px 0 100px 0;
+}
+
+.area .carousel-item img {
+  height: 80vh;
+}
+.area img {
+  height: 80vh;
 }
 
 .facility {
