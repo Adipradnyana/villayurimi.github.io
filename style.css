@@ -17,6 +17,7 @@ body {
 
 .navbar.scrolling-active {
   background-color: white;
+  padding: 15px 0 15px 0;
 }
 
 .hero {
@@ -49,6 +50,7 @@ body {
 }
 .area img {
   height: 80vh;
+  object-fit: cover;
 }
 
 .facility {
