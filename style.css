@@ -40,6 +40,14 @@ body {
 .hero button {
   --animate-delay: 1.7s;
 }
+.video {
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+.video video {
+  width: 100%;
+}
 
 .area {
   padding: 100px 0 100px 0;
